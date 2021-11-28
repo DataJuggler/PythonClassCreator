@@ -14,7 +14,7 @@ To run this project, you must have Visual Studio 2022, as it uses .Net 6.0.
 *Instructions:*
 Start the project and enter a class name, then add one or more properties. To add a property, click the Add button, then enter a Property Name, and a default value.
 
-All properties default to NoneType, however if you know your property is an integer, give it a value such as 0, or for a boolean enter False (or True) or whatever is required for your use case.
+All properties default to Default Value: None, however if you know your property is an integer, give it a value such as 0, or for a boolean enter False (or True) or whatever is required for your use case and this value is set in the constructor.
 
 I have code generated 100's of C# classes, this was my first Python project, so I do not make any claims as this is best way, it just works for me.
 
