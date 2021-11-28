@@ -5,7 +5,7 @@ This C# class is used to create Python classes. Very simple, but saves times cre
 
 This project uses DataJuggler.Win.Controls and DataJuggler.UltimateHelper Nuget packages, and saves me time creating classes for 3D Animation for IClone.
 
-<img src ='https://github.com/DataJuggler/SharedRepo/blob/master/PythonClassCreator.png' height=603 width=742>
+<img src ='https://github.com/DataJuggler/SharedRepo/blob/master/PythonPropertyCreator.png' height=603 width=742>
 
 I am a C# Programmer, so please provide me insights if I do anything Python related that is not the correct way.
 
