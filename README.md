@@ -1,7 +1,7 @@
 <img src ='https://github.com/DataJuggler/SharedRepo/blob/master/Python.png' height=128 width=128>
 
 # PythonClassCreator
-This C# class is used to create Python classes. Very simple, but saves times creating properties.
+This C# project is used to create Python classes. Very simple, but saves times creating properties.
 
 This project uses DataJuggler.Win.Controls and DataJuggler.UltimateHelper Nuget packages, and saves me time creating classes for 3D Animation for IClone.
 
