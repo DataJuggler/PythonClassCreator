@@ -20,32 +20,29 @@ I have code generated 100's of C# classes, this was my first Python project, so 
 
 Here is a sample class that was code generated that includes 4 properties:
 
-class Car:
-    def __init__(self):
-        self.__Prop = None
-        self.__InMotion = False
-        self.__StartTime = 0
-        self.__EndTime = 0
-    def SetProp(self, prop):
-        self.__Prop = prop
-    def GetProp(self):
-        return self.__Prop
-    def SetInMotion(self, inMotion):
-        self.__InMotion = inMotion
-    def GetInMotion(self):
-        return self.__InMotion
-    def SetStartTime(self, startTime):
-        self.__StartTime = startTime
-    def GetStartTime(self):
-        return self.__StartTime
-    def SetEndTime(self, endTime):
-        self.__EndTime = endTime
-    def GetEndTime(self):
-        return self.__EndTime
-    Prop=property(GetProp, SetProp)
-    InMotion=property(GetInMotion, SetInMotion)
-    StartTime=property(GetStartTime, SetStartTime)
-    EndTime=property(GetEndTime, SetEndTime)
-    
-
-
+    class Car:
+        def __init__(self):
+            self.__Prop = None
+            self.__InMotion = False
+            self.__StartTime = 0
+            self.__EndTime = 0
+        def SetProp(self, prop):
+            self.__Prop = prop
+        def GetProp(self):
+            return self.__Prop
+        def SetInMotion(self, inMotion):
+            self.__InMotion = inMotion
+        def GetInMotion(self):
+            return self.__InMotion
+        def SetStartTime(self, startTime):
+            self.__StartTime = startTime
+        def GetStartTime(self):
+            return self.__StartTime
+        def SetEndTime(self, endTime):
+            self.__EndTime = endTime
+        def GetEndTime(self):
+            return self.__EndTime
+        Prop=property(GetProp, SetProp)
+        InMotion=property(GetInMotion, SetInMotion)
+        StartTime=property(GetStartTime, SetStartTime)
+        EndTime=property(GetEndTime, SetEndTime)
