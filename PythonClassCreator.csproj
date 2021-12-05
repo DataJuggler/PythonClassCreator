@@ -10,7 +10,12 @@
     <PackageProjectUrl>https://github.com/DataJuggler/PythonClassCreator</PackageProjectUrl>
     <PackageIcon>Python.png</PackageIcon>
     <Nullable>disable</Nullable>
+    <ApplicationIcon>Images\Python.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Python.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="DataJuggler.Win.Controls" Version="5.8.10" />
