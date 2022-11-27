@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>    
+    <TargetFramework>net7.0-windows</TargetFramework>    
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <Description>Create Python classes with properties</Description>
@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DataJuggler.Win.Controls" Version="5.8.10" />
+    <PackageReference Include="DataJuggler.Win.Controls" Version="7.0.1" />
   </ItemGroup>
 
   <ItemGroup>

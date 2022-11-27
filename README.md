@@ -3,16 +3,17 @@
 # PythonClassCreator
 This C# project is used to create Python classes. Very simple, but saves times creating properties.
 
-This project uses DataJuggler.Win.Controls and DataJuggler.UltimateHelper Nuget packages, and saves me time creating classes for 3D Animation for IClone.
+This project uses DataJuggler.Win.Controls and DataJuggler.UltimateHelper Nuget packages.
 
-<img src ='https://github.com/DataJuggler/SharedRepo/blob/master/PythonPropertyCreator.png' height=603 width=742>
+
 
 I am a C# Programmer, so please provide me insights if I do anything Python related that is not the correct way.
 
-To run this project, you must have Visual Studio 2022, as it uses .Net 6.0.
+To run this project, you must use Visual Studio 2022, as it uses .NET 7.0.
 
 *Instructions:*
-Start the project and enter a class name, then add one or more properties. To add a property, click the Add button, then enter a Property Name, and a default value.
+Start the project and enter a class name, then add one or more properties. 
+To add a property, click the Add button, then enter a Property Name, and a default value. Click Save.
 
 All properties default to Default Value: None, however if you know your property is an integer, give it a value such as 0, or for a boolean enter False (or True) or whatever is required for your use case and this value is set in the constructor.
 

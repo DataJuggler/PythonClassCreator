@@ -65,6 +65,7 @@ namespace PythonClassCreator
             this.ClassNameTextBox = new DataJuggler.Win.Controls.LabelTextBoxControl();
             this.StatusLabel = new System.Windows.Forms.Label();
             this.DefaultValueTextBox = new DataJuggler.Win.Controls.LabelTextBoxControl();
+            this.InfoLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // PropertyNameTextBox
@@ -74,6 +75,7 @@ namespace PythonClassCreator
             this.PropertyNameTextBox.Editable = true;
             this.PropertyNameTextBox.Encrypted = false;
             this.PropertyNameTextBox.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PropertyNameTextBox.Inititialized = true;
             this.PropertyNameTextBox.LabelBottomMargin = 0;
             this.PropertyNameTextBox.LabelColor = System.Drawing.Color.LemonChiffon;
             this.PropertyNameTextBox.LabelFont = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -202,6 +204,7 @@ namespace PythonClassCreator
             this.ClassNameTextBox.Editable = true;
             this.ClassNameTextBox.Encrypted = false;
             this.ClassNameTextBox.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ClassNameTextBox.Inititialized = true;
             this.ClassNameTextBox.LabelBottomMargin = 0;
             this.ClassNameTextBox.LabelColor = System.Drawing.Color.LemonChiffon;
             this.ClassNameTextBox.LabelFont = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -241,6 +244,7 @@ namespace PythonClassCreator
             this.DefaultValueTextBox.Editable = true;
             this.DefaultValueTextBox.Encrypted = false;
             this.DefaultValueTextBox.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DefaultValueTextBox.Inititialized = true;
             this.DefaultValueTextBox.LabelBottomMargin = 0;
             this.DefaultValueTextBox.LabelColor = System.Drawing.Color.LemonChiffon;
             this.DefaultValueTextBox.LabelFont = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -262,12 +266,24 @@ namespace PythonClassCreator
             this.DefaultValueTextBox.TextBoxTopMargin = 0;
             this.DefaultValueTextBox.Theme = DataJuggler.Win.Controls.Enumerations.ThemeEnum.Dark;
             // 
+            // InfoLabel
+            // 
+            this.InfoLabel.BackColor = System.Drawing.Color.Transparent;
+            this.InfoLabel.ForeColor = System.Drawing.Color.LemonChiffon;
+            this.InfoLabel.Location = new System.Drawing.Point(485, 234);
+            this.InfoLabel.Name = "InfoLabel";
+            this.InfoLabel.Size = new System.Drawing.Size(209, 273);
+            this.InfoLabel.TabIndex = 10;
+            this.InfoLabel.Text = "1. Enter a Class Name.\r\n2. Click the Add gutton\r\n3. Enter Property Name\r\n4. Enter" +
+    " Default Value\r\n5. Click Save.\r\n6. Repeat as needed\r\n7. Click Create Class\r\n\r\n";
+            // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackgroundImage = global::PythonClassCreator.Properties.Resources.BlackImage;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(740, 571);
+            this.Controls.Add(this.InfoLabel);
             this.Controls.Add(this.DefaultValueTextBox);
             this.Controls.Add(this.StatusLabel);
             this.Controls.Add(this.ClassNameTextBox);
@@ -294,6 +310,7 @@ namespace PythonClassCreator
         #endregion
 
         private DataJuggler.Win.Controls.LabelTextBoxControl DefaultValueTextBox;
+        private Label InfoLabel;
     }
     #endregion
 
